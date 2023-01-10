@@ -105,6 +105,26 @@ strategy_list = {
     }, 
 ```
 ## Scan Process ##
+```
+19:51:31. CYCLE 1. STRATEGY 57
+---------------------------------------------------------
+1W BTC Stoch.RSI more then 70
+1W Stoch.RSI more then 70
+3d Stoch.RSI more then 70
+1d RSI more then 70
+4h RSI more then 70
+1h RSI more then 70
+TP-15%, SL-15%
+1INCHUSDT
+AAVEUSDT
+ADAUSDT
+ALGOUSDT
+ALICEUSDT
+ALPHAUSDT
+ANKRUSDT
+ANTUSDT
+APEUSDT
+```
 ## Tradingview_TA Module
 ```python
 {'exchange': 'BINANCE',
