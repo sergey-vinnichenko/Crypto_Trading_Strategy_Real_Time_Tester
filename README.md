@@ -318,6 +318,48 @@ Indicators
 5m – SELL
 ```
 ## Tradingview_TA Recommendations ##
+```
+ 'interval': '15m',
+ 'moving_averages': {'BUY': 14,
+                     'COMPUTE': {'EMA10': 'BUY',
+                                 'EMA100': 'BUY',
+                                 'EMA20': 'BUY',
+                                 'EMA200': 'BUY',
+                                 'EMA30': 'BUY',
+                                 'EMA50': 'BUY',
+                                 'HullMA': 'BUY',
+                                 'Ichimoku': 'NEUTRAL',
+                                 'SMA10': 'BUY',
+                                 'SMA100': 'BUY',
+                                 'SMA20': 'BUY',
+                                 'SMA200': 'BUY',
+                                 'SMA30': 'BUY',
+                                 'SMA50': 'BUY',
+                                 'VWMA': 'BUY'},
+                     'NEUTRAL': 1,
+                     'RECOMMENDATION': 'STRONG_BUY',
+                     'SELL': 0},
+ 'oscillators': {'BUY': 2,
+                 'COMPUTE': {'ADX': 'NEUTRAL',
+                             'AO': 'NEUTRAL',
+                             'BBP': 'NEUTRAL',
+                             'CCI': 'NEUTRAL',
+                             'MACD': 'BUY',
+                             'Mom': 'BUY',
+                             'RSI': 'NEUTRAL',
+                             'STOCH.K': 'NEUTRAL',
+                             'Stoch.RSI': 'NEUTRAL',
+                             'UO': 'NEUTRAL',
+                             'W%R': 'NEUTRAL'},
+                 'NEUTRAL': 9,
+                 'RECOMMENDATION': 'BUY',
+                 'SELL': 0},
+ 'screener': 'crypto',
+ 'summary': {'BUY': 16,
+             'NEUTRAL': 10,
+             'RECOMMENDATION': 'STRONG_BUY',
+             'SELL': 0},
+```
 ## Strategy Reports ##
 
 ```
