@@ -10,6 +10,7 @@
 7. Strategy result analyser
 ## What Is The Main Function ##
 ## How to Build a Strategy List ##
+The description of the strategies is contained in a 'config.py' file in the 'tr_view' folder. Here is a quote from that file:
 ```python
 strategy_list = {
 
@@ -105,6 +106,7 @@ strategy_list = {
     }, 
 ```
 ## Scan Process ##
+The scanning progress is displayed in the console as follows. The program starts with the last strategy and goes from the first coin in the list to the next one. And so it goes until she sorts out all the strategies and all the coins. After that, it pauses and begins the next cycle.
 ```
 19:51:31. CYCLE 1. STRATEGY 57
 ---------------------------------------------------------
@@ -264,6 +266,7 @@ The whole project is built around Tradingview_ta module for Python. Here is an e
  'time': datetime.datetime(2023, 1, 10, 19, 48, 56, 429329)}
 ```
 ## Telegram Messages ##
+Here is an example of a message that comes to Telegram if the search for matches brings a positive result.
 ```
 #GRTUSDT
 #Strategy_56
