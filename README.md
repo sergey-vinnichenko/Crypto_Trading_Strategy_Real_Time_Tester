@@ -126,6 +126,7 @@ ANTUSDT
 APEUSDT
 ```
 ## Tradingview_TA Module
+The whole project is built around Tradingview_ta module for Python. Here is an example of an 15 minutes time frame report for BNB coin. Bbased on this report, we can understand what kind of information is available to us with the help of this module. 
 ```python
 {'exchange': 'BINANCE',
  'indicators': {'ADX': 12.86109451,
