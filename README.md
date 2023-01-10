@@ -10,7 +10,7 @@
 7. Strategy result analyser
 ## What Is The Main Function ##
 ## How to Build a Strategy List ##
-The description of the strategies is contained in a 'config.py' file in the 'tr_view' folder. Here is a quote from that file:
+The description of the strategies is contained in a 'config.py' file in the 'tr_view' folder. Here is a quote from that file with my comments:
 ```python
 strategy_list = {
 
