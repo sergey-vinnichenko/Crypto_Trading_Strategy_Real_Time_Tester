@@ -393,6 +393,7 @@ Indicators
 ## Strategy Reports ##
 
 Here is an example of the report I ended up with for each strategy. In this strategy, I have 23 finished trails. Moreover, all 23 turned out to be unprofitable and met their stop loss. As well as 2 open positions that are already close to being also closed by stop loss.
+
 ![](https://drive.google.com/uc?export=download&id=1mJ-PW8GFQJeL2KZL1rdTnYfdOmljr1TB)
 
 ## Conclusion ##
