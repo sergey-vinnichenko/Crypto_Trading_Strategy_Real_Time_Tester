@@ -2,12 +2,15 @@
 
 ## How To Run This Program ##
 1. Instal Tradingview_TA module 
-2. Instal Colorama module
-3. Create telegram bot
-4. Get telegram chat id
-5. Put telegram chat id
-6. Run entry point point scanner
-7. Strategy result analyser
+```python
+pip install tradingview-ta
+```
+3. Instal Colorama module
+4. Create telegram bot
+5. Get telegram chat id
+6. Put telegram chat id
+7. Run entry point point scanner
+8. Strategy result analyser
 ## What Is The Main Function Of This Program ##
 The task of this program was to check whether it is possible to create a trading strategy based on technical analysis that will give more profit than losses. For these purposes, everything necessary was created so that you can write any strategies based on multiple criteria. Then, if these criteria are met, create a virtual deal. Then track whether this trade reached its take profit or was closed by stop loss. And then analyze how many trades within each strategy gave a positive result, and how many trades gave a negative result. And also calculate the average duration of trades with is each strategy.
 ## How to Build a Strategy List ##
