@@ -393,22 +393,7 @@ Indicators
 ## Strategy Reports ##
 
 Here is an example of the report I ended up with for each strategy. In this strategy, I have 23 finished trails. Moreover, all 23 turned out to be unprofitable and met their stop loss. As well as 2 open positions that are already close to being also closed by stop loss.
-
 ![](https://drive.google.com/uc?export=download&id=1Q6U1w5r65gKfU5kaaYhRFKbFgDEvWlTF)
-
-```
-Strategy 52, sell
-0%(0) Profit, 100%(23) Loss
-1d, 1h Stoch RSI больше 93
-TP-14%, SL-7%
-2 Open, 23 Finished, 25 Total
-64 hours 10 min Average Time
-
-Open Signals
-ETHUSDT     -78%     1337.31   97h 8m    
-KSMUSDT     -87%     26.63     92h 57m    
-Average progress -82%
-```
 
 ## Conclusion ##
 
