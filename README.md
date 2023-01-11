@@ -44,8 +44,7 @@ strategy_list = {
     57: {
 
         # Stratedy description
-        'doc': '1W BTC Stoch.RSI more then 70\n'
-               '1W Stoch.RSI more than 70\n'
+        'doc': '1W Stoch.RSI more than 70\n'
                '3d Stoch.RSI more than 70\n'
                '1d RSI more than 70\n'
                '4h RSI more than 70\n'
@@ -136,12 +135,12 @@ The scanning progress is displayed in the console as follows. The program starts
 ```
 19:51:31. CYCLE 1. STRATEGY 57
 ---------------------------------------------------------
-1W BTC Stoch.RSI more then 70
-1W Stoch.RSI more then 70
-3d Stoch.RSI more then 70
-1d RSI more then 70
-4h RSI more then 70
-1h RSI more then 70
+1W BTC Stoch.RSI more than 70
+1W Stoch.RSI more than 70
+3d Stoch.RSI more than 70
+1d RSI more than 70
+4h RSI more than 70
+1h RSI more than 70
 TP-15%, SL-15%
 1INCHUSDT
 AAVEUSDT
