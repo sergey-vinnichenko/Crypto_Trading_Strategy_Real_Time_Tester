@@ -403,8 +403,8 @@ TP-14%, SL-7%
 64 hours 10 min Average Time
 
 Open Signals
-ETHUSDT     -78%     1337.31   97h 8m    cp 1337.31    ep 1267.3     tp 1089.9     sl 1356.0    
-KSMUSDT     -87%     26.63     92h 57m   cp 26.63      ep 25.1       tp 21.586     sl 26.857    
+ETHUSDT     -78%     1337.31   97h 8m    
+KSMUSDT     -87%     26.63     92h 57m    
 Average progress -82%
 ```
 
