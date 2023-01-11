@@ -26,8 +26,8 @@ API_TOKEN = 'ххххх'
 - Go to 'tr_view' folder
 - Open 'config.py'vfile
 - Set telegram chat id to all strategies  
-- ```python
-pip install colorama
+```python
+'chat_id': 'ххххххх',
 ```
 7. Run entry point point scanner
 Run 'main.py' file
