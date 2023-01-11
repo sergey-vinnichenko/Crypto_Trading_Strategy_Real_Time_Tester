@@ -402,21 +402,21 @@ TP-20%, SL-10%
 64 hours 38 min Average Time
 
 Open Signals
-AVAXUSDT    -61%     12.45     138h 35m  cp 12.45      ep 11.73      tp 9.384      sl 12.903    
-EGLDUSDT    -31%     35.17     138h 35m  cp 35.17      ep 34.11      tp 27.288     sl 37.521    
-ETHUSDT     -67%     1332.9    138h 35m  cp 1332.9     ep 1248.4     tp 998.72     sl 1373.2    
-LINKUSDT    -61%     6.089     138h 34m  cp 6.089      ep 5.737      tp 4.5896     sl 6.3107    
-UNFIUSDT    -30%     4.03      138h 33m  cp 4.03       ep 3.91       tp 3.128      sl 4.301     
-KSMUSDT     -75%     26.64     131h 53m  cp 26.64      ep 24.77      tp 19.816     sl 27.247    
-EGLDUSDT    -34%     35.17     127h 10m  cp 35.17      ep 33.99      tp 27.192     sl 37.389    
-ETHUSDT     -66%     1332.9    127h 10m  cp 1332.9     ep 1249.6     tp 999.7      sl 1374.6    
-BLZUSDT     -41%     0.0553    116h 8m   cp 0.0553     ep 0.0531     tp 0.04248    sl 0.05841   
-BNBUSDT     -72%     277.6     116h 8m   cp 277.6      ep 258.8      tp 207.04     sl 284.68    
-EGLDUSDT    -24%     35.17     116h 8m   cp 35.17      ep 34.33      tp 27.464     sl 37.763    
-ETHUSDT     -56%     1332.9    116h 8m   cp 1332.9     ep 1261.7     tp 1009.4     sl 1387.9    
-KSMUSDT     -86%     26.64     116h 7m   cp 26.64      ep 24.52      tp 19.616     sl 26.972    
-RVNUSDT     -48%     0.02111   116h 6m   cp 0.02111    ep 0.02013    tp 0.016104   sl 0.022143  
-BTCUSDT     -34%     17421.98  114h 24m  cp 17421.98   ep 16849.0    tp 13479.0    sl 18534.0   
+AVAXUSDT    -61%     12.45     138h 35m   
+EGLDUSDT    -31%     35.17     138h 35m
+ETHUSDT     -67%     1332.9    138h 35m
+LINKUSDT    -61%     6.089     138h 34m
+UNFIUSDT    -30%     4.03      138h 33m
+KSMUSDT     -75%     26.64     131h 53m
+EGLDUSDT    -34%     35.17     127h 10m
+ETHUSDT     -66%     1332.9    127h 10m
+BLZUSDT     -41%     0.0553    116h 8m
+BNBUSDT     -72%     277.6     116h 8m
+EGLDUSDT    -24%     35.17     116h 8m
+ETHUSDT     -56%     1332.9    116h 8m
+KSMUSDT     -86%     26.64     116h 7m
+RVNUSDT     -48%     0.02111   116h 6m
+BTCUSDT     -34%     17421.98  114h 24m
 Average progress -52%
 ```
 
