@@ -413,4 +413,3 @@ Average progress -82%
 I tested more than 50 strategies and in general did not come up with a positive result, because basically all strategies gave more losses than wins.
 
 I also came to the conclusion that I have to build my strategies around 1 day, 3 days and 1 week frames using RSI and Stoch RSI indicators. But in order to test the effectiveness of such strategies, a lot of time is needed.
-
