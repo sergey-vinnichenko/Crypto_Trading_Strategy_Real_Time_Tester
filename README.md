@@ -24,7 +24,7 @@ API_TOKEN = 'ххххх'
 - Bot will send your current chat id. Copy this chat id to clipboard.
 5. Put telegram chat id
 - Go to 'tr_view' folder
-- Open 'config.py'vfile
+- Open 'config.py' file
 - Set telegram chat id to all strategies  
 ```python
 'chat_id': 'ххххххх',
@@ -34,7 +34,7 @@ Run 'main.py' file
 8. Strategy result analyser
 Run 'run_report.py' file in main folder
 ## What Is The Main Function Of This Program ##
-The task of this program was to check whether it is possible to create a trading strategy based on technical analysis that will give more profit than losses. For these purposes, everything necessary was created so that you can write any strategies based on multiple criteria. Then, if these criteria are met, create a virtual deal. Then track whether this trade reached its take profit or was closed by stop loss. And then analyze how many trades within each strategy gave a positive result, and how many trades gave a negative result. And also calculate the average duration of trades with is each strategy.
+The task of this program was to check whether it is possible to create a trading strategy based on technical analysis that will give more profit than losses. For these purposes, everything necessary was created so that you can write any strategies based on multiple criteria. Then, if these criteria are met, create a virtual deal. Then track whether this trade reached its take profit or was closed by stop loss. And then analyze how many trades within each strategy gave a positive result, and how many trades gave a negative result. And also calculate the average duration of trades in each strategy.
 ## How to Build a Strategy List ##
 The description of the strategies is contained in a 'config.py' file in the 'tr_view' folder. Here is a quote from that file with my comments. We can put in this file as many strategies as we want.
 ```python
