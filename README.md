@@ -301,11 +301,11 @@ Price – 0.07
 Take profit – 0.0595 
 Stop loss – 0.0805 
 
-1W Stoch.RSI more then 70
-3d Stoch.RSI more then 70
-1d RSI more then 70
-4h RSI more then 70
-1h RSI more then 70
+1W Stoch.RSI more than 70
+3d Stoch.RSI more than 70
+1d RSI more than 70
+4h RSI more than 70
+1h RSI more than 70
 TP-15%, SL-15%
 
 Criteria – 1
@@ -396,7 +396,7 @@ Here is an example of the report I ended up with for each strategy. In this stra
 ```
 Strategy 45, sell
 0%(0) Profit, 100%(75) Loss
-1d Stoch RSI больше 80
+1d Stoch RSI more than 80
 TP-20%, SL-10%
 15 Open, 75 Finished, 90 Total
 64 hours 38 min Average Time
