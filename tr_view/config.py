@@ -90,12 +90,12 @@ strategy_list = {
     57: {
 
         # Stratedy description
-        'doc': '1W BTC Stoch.RSI more then 70\n'
-               '1W Stoch.RSI more then 70\n'
-               '3d Stoch.RSI more then 70\n'
-               '1d RSI more then 70\n'
-               '4h RSI more then 70\n'
-               '1h RSI more then 70\n'
+        'doc': '1W BTC Stoch.RSI more than 70\n'
+               '1W Stoch.RSI more than 70\n'
+               '3d Stoch.RSI more than 70\n'
+               '1d RSI more than 70\n'
+               '4h RSI more than 70\n'
+               '1h RSI more than 70\n'
                'TP-15%, SL-15%',
 
         # List of coins
@@ -198,11 +198,11 @@ strategy_list = {
     },  # 1W, 3d Stoch RSI, 1d, 4h, 1h RSI + BTC (sell)
 
     56: {
-        'doc': '1W Stoch.RSI больше 70\n'
-               '3d Stoch.RSI больше 70\n'
-               '1d RSI больше 70\n'
-               '4h RSI больше 70\n'
-               '1h RSI больше 70\n'
+        'doc': '1W Stoch.RSI more than 70\n'
+               '3d Stoch.RSI more than 70\n'
+               '1d RSI more than 70\n'
+               '4h RSI more than 70\n'
+               '1h RSI more than 70\n'
                'TP-15%, SL-15%',
         'coins': 2,
         'chat_id': '-801544985',
@@ -265,7 +265,7 @@ strategy_list = {
         'stop_loss': 1.15
     },  # 1W, 3d Stoch RSI, 1d, 4h, 1h RSI (sell)
     44: {
-        'doc': '1d Stoch RSI меньше 20\n'
+        'doc': '1d Stoch RSI less than 20\n'
                'TP-20%, SL-10%',
         'coins': 2,
         'chat_id': '-801544985',
@@ -285,10 +285,10 @@ strategy_list = {
         'signal': 'buy',
         'take_profit': 1.2,
         'stop_loss': 0.9
-    },  # 1d Stoch.RSI меньше 20 (buy)
+    },  # 1d Stoch.RSI less than 20 (buy)
 
     55: {
-        'doc': '1d RSI больше 65, 4h Stoch RSI больше 93\n'
+        'doc': '1d RSI more than  65, 4h Stoch RSI more than 93\n'
                'TP-15%, SL-30%',
         'coins': None,
         'chat_id': None,
@@ -318,9 +318,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.85,
         'stop_loss': 1.3
-    },  # STOP – Специальная стратегия RLC (sell)
+    },  # STOP – RLC (sell)
     54: {
-        'doc': '1d RSI меньше 35, 4h Stoch RSI меньше 10\n'
+        'doc': '1d RSI less than 35, 4h Stoch RSI less than 10\n'
                'TP-15%, SL-30%',
         'coins': None,
         'chat_id': None,
@@ -350,9 +350,9 @@ strategy_list = {
         'signal': 'buy',
         'take_profit': 1.15,
         'stop_loss': 0.7
-    },  # STOP – Специальная стратегия RLC (buy)
+    },  # STOP – RLC (buy)
     53: {
-        'doc': '3d, 1d, 1h Stoch RSI больше 93\n'
+        'doc': '3d, 1d, 1h Stoch RSI more than 93\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -392,9 +392,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 1h Stoch RSI больше 93 (sell)
+    },  # STOP – 1d, 1h Stoch RSI more than 93 (sell)
     52: {
-        'doc': '1d, 1h Stoch RSI больше 93\n'
+        'doc': '1d, 1h Stoch RSI more than 93\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -423,9 +423,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 1h Stoch RSI больше 93 (sell)
+    },  # STOP – 1d, 1h Stoch RSI more than 93 (sell)
     49: {
-        'doc': '1d, 4h Stoch RSI больше 93\n'
+        'doc': '1d, 4h Stoch RSI more than 93\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -454,9 +454,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 4h Stoch RSI больше 93 (sell)
+    },  # STOP – 1d, 4h Stoch RSI more than 93 (sell)
     48: {
-        'doc': '1d, 4h, 1h Stoch RSI больше 90\n'
+        'doc': '1d, 4h, 1h Stoch RSI more than 90\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -495,9 +495,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 4h, 1h Stoch RSI больше 90 (sell)
+    },  # STOP – 1d, 4h, 1h Stoch RSI more than 90 (sell)
     47: {
-        'doc': '1d Stoch RSI больше 93\n'
+        'doc': '1d Stoch RSI more than 93\n'
                'TP-20%, SL-10%',
         'coins': None,
         'chat_id': None,
@@ -516,9 +516,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # STOP – 1d Stoch.RSI больше 93 (sell)
+    },  # STOP – 1d Stoch.RSI more than 93 (sell)
     46: {
-        'doc': '1w, 1d, 4h, 1h Stoch RSI больше 90\n'
+        'doc': '1w, 1d, 4h, 1h Stoch RSI more than 90\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -567,9 +567,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1w, 1d, 4h, 1h Stoch RSI больше 90 (sell)
+    },  # STOP – 1w, 1d, 4h, 1h Stoch RSI more than 90 (sell)
     45: {
-        'doc': '1d Stoch RSI больше 80\n'
+        'doc': '1d Stoch RSI more than 80\n'
                'TP-20%, SL-10%',
         'coins': None,
         'chat_id': None,
@@ -588,9 +588,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # STOP – 1d Stoch.RSI больше 80 (sell)
+    },  # STOP – 1d Stoch.RSI more than 80 (sell)
     42: {
-        'doc': '1w, 1d, 4h, 1h Stoch RSI больше 78\n'
+        'doc': '1w, 1d, 4h, 1h Stoch RSI more than 78\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -639,9 +639,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1w, 1d, 4h, 1h Stoch RSI больше 78 (sell)
+    },  # STOP – 1w, 1d, 4h, 1h Stoch RSI more than 78 (sell)
     41: {
-        'doc': '4h RSI больше 80\n'
+        'doc': '4h RSI more than 80\n'
                'TP-20%, SL-10%',
         'coins': None,
         'chat_id': None,
@@ -660,14 +660,14 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # STOP – 4h RSI больше 80 (sell)
+    },  # STOP – 4h RSI more than 80 (sell)
     37: {
-        'doc': '5m MACD меньше SIGNAL\n'
-               '15m MACD меньше SIGNAL\n'
-               '30m MACD меньше SIGNAL\n'
-               '1h MACD меньше SIGNAL\n'
-               '4h MACD меньше SIGNAL\n'
-               '4h RSI больше 60\n'
+        'doc': '5m MACD less than SIGNAL\n'
+               '15m MACD less than SIGNAL\n'
+               '30m MACD less than SIGNAL\n'
+               '1h MACD less than SIGNAL\n'
+               '4h MACD less than SIGNAL\n'
+               '4h RSI less than 60\n'
                'TP-3%, SL-1,5%',
         'coins': None,
         'chat_id': None,
@@ -736,9 +736,9 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.97,
         'stop_loss': 1.015
-    },  # STOP – MACD, 5m, 15m, 30m, 1h, 4h, 4h RSI больше 60 (sell)
+    },  # STOP – MACD, 5m, 15m, 30m, 1h, 4h, 4h RSI more than 60 (sell)
     35: {
-        'doc': '4h RSI больше 72\n'
+        'doc': '4h RSI more than 72\n'
                'TP-20%, SL-10%',
         'coins': None,
         'chat_id': None,
@@ -757,13 +757,13 @@ strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # STOP – 4h RSI больше 72 (sell)
+    },  # STOP – 4h RSI more than 72 (sell)
 
 }  # Final
 
 archive_strategy_list = {
     53: {
-        'doc': '1d, 1h Stoch RSI меньше 7\n'
+        'doc': '1d, 1h Stoch RSI more than 7\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -792,9 +792,9 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 4h Stoch RSI меньше 7 (buy)
+    },  # STOP – 1d, 4h Stoch RSI less than 7 (buy)
     51: {
-        'doc': '1d, 4h Stoch RSI меньше 7\n'
+        'doc': '1d, 4h Stoch RSI less than 7\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -823,9 +823,9 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 4h Stoch RSI меньше 7 (buy)
+    },  # STOP – 1d, 4h Stoch RSI less than 7 (buy)
     50: {
-        'doc': '1d, 4h, 1h Stoch RSI меньше 10\n'
+        'doc': '1d, 4h, 1h Stoch RSI less than 10\n'
                'TP-14%, SL-7%',
         'coins': None,
         'chat_id': None,
@@ -864,14 +864,14 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 0.86,
         'stop_loss': 1.07
-    },  # STOP – 1d, 4h, 1h Stoch RSI меньше 10 (buy)
+    },  # STOP – 1d, 4h, 1h Stoch RSI less than 10 (buy)
     38: {
-        'doc': '5m MACD больше SIGNAL\n'
-               '15m MACD больше SIGNAL\n'
-               '30m MACD больше SIGNAL\n'
-               '1h MACD больше SIGNAL\n'
-               '4h MACD больше SIGNAL\n'
-               '4h RSI меньше 40\n'
+        'doc': '5m MACD more than SIGNAL\n'
+               '15m MACD more than SIGNAL\n'
+               '30m MACD more than SIGNAL\n'
+               '1h MACD more than SIGNAL\n'
+               '4h MACD more than SIGNAL\n'
+               '4h RSI less than 40\n'
                'TP-3%, SL-1,5%',
         'coins': None,
         'chat_id': None,
@@ -940,11 +940,11 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.03,
         'stop_loss': 0.985
-    },  # STOP – MACD, 5m, 15m, 30m, 1h, 4h, 4h RSI меньше 40 (buy)
+    },  # STOP – MACD, 5m, 15m, 30m, 1h, 4h, 4h RSI less than 40 (buy)
     15: {
         'doc': '#good_strategy\n'
-               '5m MACD меньше SIGNAL\n'
-               '15m RSI больше 70\n'
+               '5m MACD less than SIGNAL\n'
+               '15m RSI more than 70\n'
                'TP-1,5%, SL-0,75%',
         'coins': 2,
         'chat_id': None,
@@ -973,12 +973,12 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.985,
         'stop_loss': 1.0075
-    },  # 5m MACD меньше signal, 15m RSI больше 70 (sell) – STOP
+    },  # 5m MACD less than signal, 15m RSI more than 70 (sell) – STOP
     # 71%(5) Profit, 28%(2) Loss, 0 Open, 7 Finished, 7 Total
     # 1 hours 48 min Average Time
 
     43: {
-        'doc': '1d RSI больше 80\n'
+        'doc': '1d RSI more than 80\n'
                'TP-20%, SL-10%',
         'coins': 2,
         'chat_id': None,
@@ -997,12 +997,12 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # 1d RSI больше 80 (sell) – STOP
+    },  # 1d RSI more than 80 (sell) – STOP
     40: {
-        'doc': '5m MACD больше SIGNAL\n'
-               '15m MACD больше SIGNAL\n'
-               '30m MACD больше SIGNAL\n'
-               '1h MACD больше SIGNAL\n'
+        'doc': '5m MACD more than SIGNAL\n'
+               '15m MACD more than SIGNAL\n'
+               '30m MACD more than SIGNAL\n'
+               '1h MACD more than SIGNAL\n'
                '4h RSI меньше 40\n'
                'TP-1%, SL-0,5%',
         'coins': 2,
@@ -1069,7 +1069,7 @@ archive_strategy_list = {
                '15m MACD меньше SIGNAL\n'
                '30m MACD меньше SIGNAL\n'
                '1h MACD меньше SIGNAL\n'
-               '4h RSI больше 60\n'
+               '4h RSI more than 60\n'
                'TP-1%, SL-0,5%',
         'coins': 2,
         'chat_id': None,
@@ -1134,7 +1134,7 @@ archive_strategy_list = {
 
     36: {
         'doc': '4h RSI 40-50\n'
-               'MACD растет\n'
+               'MACD up\n'
                'TP-5%, SL-2,5%',
         'coins': 2,
         'chat_id': None,
@@ -1197,9 +1197,9 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.2,
         'stop_loss': 0.9
-    },  # 4h RSI меньше 17 (buy) – STOP
+    },  # 4h RSI less than 17 (buy) – STOP
     33: {
-        'doc': '1d RSI больше 72\n'
+        'doc': '1d RSI more than 72\n'
                'TP-40%, SL-20%',
         'coins': 2,
         'chat_id': None,
@@ -1218,9 +1218,9 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.6,
         'stop_loss': 1.2
-    },  # 1d RSI больше 72 (sell) – STOP
+    },  # 1d RSI more than 72 (sell) – STOP
     32: {
-        'doc': '1d RSI меньше 17\n'
+        'doc': '1d RSI less than 17\n'
                'TP-40%, SL-20%',
         'coins': 2,
         'chat_id': None,
@@ -1239,14 +1239,14 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.4,
         'stop_loss': 0.8
-    },  # 1d RSI меньше 17 (buy) – STOP
+    },  # 1d RSI less than 17 (buy) – STOP
     25: {
-        'doc': 'Все RSI на пике\n'
-               '1d RSI больше 72\n'
-               '4h RSI больше 72\n'
-               '1h RSI больше 72\n'
-               '30m RSI больше 72\n'
-               '15m RSI больше 72\n'
+        'doc': 'RSI is on top\n'
+               '1d RSI more than 72\n'
+               '4h RSI more than 72\n'
+               '1h RSI more than 72\n'
+               '30m RSI more than 72\n'
+               '15m RSI more than 72\n'
                'TP-10%, SL-5%',
         'coins': 2,
         'chat_id': None,
@@ -1305,14 +1305,14 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.90,
         'stop_loss': 1.05
-    },  # Все RSI на пике, 15m – 1d (sell) – STOP
+    },  # RSI is on top, 15m – 1d (sell) – STOP
     24: {
-        'doc': 'Все RSI на дне\n'
-               '1d RSI меньше 28\n'
-               '4h RSI меньше 28\n'
-               '1h RSI меньше 28\n'
-               '30m RSI меньше 28\n'
-               '15m RSI меньше 28\n'
+        'doc': 'Все RSI on buttom\n'
+               '1d RSI less than 28\n'
+               '4h RSI less than 28\n'
+               '1h RSI less than 28\n'
+               '30m RSI less than 28\n'
+               '15m RSI less than 28\n'
                'TP-10%, SL-5%',
         'coins': 2,
         'chat_id': None,
@@ -1373,8 +1373,8 @@ archive_strategy_list = {
         'stop_loss': 0.95
     },  # Все RSI на дне, 15m – 1d (buy) – STOP
     31: {
-        'doc': '1h MACD меньше SIGNAL\n'
-               '2h RSI больше 70\n'
+        'doc': '1h MACD less than SIGNAL\n'
+               '2h RSI more than 70\n'
                'TP-4%, SL-2%',
         'coins': 2,
         'chat_id': None,
@@ -1403,10 +1403,10 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.96,
         'stop_loss': 1.02
-    },  # 1h MACD меньше signal, 2h RSI больше 70 (sell)
+    },  # 1h MACD less than signal, 2h RSI more than 70 (sell)
     30: {
-        'doc': '1h MACD больше SIGNAL\n'
-               '2h RSI меньше 70\n'
+        'doc': '1h MACD more than SIGNAL\n'
+               '2h RSI less than 70\n'
                'TP-4%, SL-2%',
         'coins': 2,
         'chat_id': None,
@@ -1435,10 +1435,10 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.04,
         'stop_loss': 0.98
-    },  # 1h MACD больше signal, 2h RSI меньше 70 (buy)
+    },  # 1h MACD more than signal, 2h RSI less than 70 (buy)
     29: {
-        'doc': '30m MACD меньше SIGNAL\n'
-               '1h RSI больше 70\n'
+        'doc': '30m MACD less than SIGNAL\n'
+               '1h RSI more than 70\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1467,10 +1467,10 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.97,
         'stop_loss': 1.015
-    },  # 30m MACD меньше signal, 1h RSI больше 70 (sell)
+    },  # 30m MACD less than signal, 1h RSI more than 70 (sell)
     28: {
-        'doc': '30m MACD больше SIGNAL\n'
-               '1h RSI меньше 70\n'
+        'doc': '30m MACD more than SIGNAL\n'
+               '1h RSI less than 70\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1499,14 +1499,14 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.03,
         'stop_loss': 0.985
-    },  # 30m MACD больше signal, 1h RSI меньше 70 (buy)
+    },  # 30m MACD more than signal, 1h RSI less than 70 (buy)
     27: {
         'doc': 'Четыре MACD + 1h RSI\n'
-               '5m MACD больше SIGNAL\n'
-               '15m MACD больше SIGNAL\n'
-               '30m MACD больше SIGNAL\n'
-               '1h MACD больше SIGNAL\n'
-               '4h RSI меньше 40\n'
+               '5m MACD more than SIGNAL\n'
+               '15m MACD more than SIGNAL\n'
+               '30m MACD more than SIGNAL\n'
+               '1h MACD more than SIGNAL\n'
+               '4h RSI less than 40\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1568,11 +1568,11 @@ archive_strategy_list = {
     },  # Только MACD, 5m, 15m, 30m, 1h (buy)
     26: {
         'doc': 'Только MACD\n'
-               '5m MACD меньше SIGNAL\n'
-               '15m MACD меньше SIGNAL\n'
-               '30m MACD меньше SIGNAL\n'
-               '1h MACD меньше SIGNAL\n'
-               '4h RSI больше 60\n'
+               '5m MACD less than SIGNAL\n'
+               '15m MACD less than SIGNAL\n'
+               '30m MACD less than SIGNAL\n'
+               '1h MACD less than SIGNAL\n'
+               '4h RSI more than 60\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1638,8 +1638,8 @@ archive_strategy_list = {
 
     21: {
         'doc': 'Только RSI 1h\n'
-               '1h RSI больше 80\n'
-               '1d MACD меньше SIGNAL\n'
+               '1h RSI more than 80\n'
+               '1d MACD less than SIGNAL\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1674,8 +1674,8 @@ archive_strategy_list = {
 
     20: {
         'doc': 'Только RSI 1h\n'
-               '1h RSI меньше 20\n'
-               '1d MACD больше SIGNAL\n'
+               '1h RSI less than 20\n'
+               '1d MACD more than SIGNAL\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1707,8 +1707,8 @@ archive_strategy_list = {
     },  # 1h RSI + 1d MACD (buy)
     23: {
         'doc': 'Только RSI 1h\n'
-               '1h RSI меньше 80\n'
-               '1h RSI больше 60\n'
+               '1h RSI less than 80\n'
+               '1h RSI more than 60\n'
                '1d MACD.macd < MACD.signal',
         'coins': 2,
         'chat_id': None,
@@ -1750,8 +1750,8 @@ archive_strategy_list = {
     },  # 1h RSI 60-80 + 1d MACD (sell)
     22: {
         'doc': 'Только RSI 1h\n'
-               '1h RSI меньше 40\n'
-               '1h RSI больше 20\n'
+               '1h RSI less than 40\n'
+               '1h RSI more than 20\n'
                '1d MACD.macd < MACD.signal',
         'coins': 2,
         'chat_id': None,
@@ -1793,9 +1793,9 @@ archive_strategy_list = {
     },  # 1h RSI 20-40 + 1d MACD (buy)
     19: {
         'doc': '#good_strategy\n'
-               '5m MACD меньше SIGNAL\n'
-               '15m RSI больше 70\n'
-               '1d MACD меньше SIGNAL\n'
+               '5m MACD less than SIGNAL\n'
+               '15m RSI more than 70\n'
+               '1d MACD less than SIGNAL\n'
                'TP-1,5%, SL-0,75%',
         'coins': 2,
         'chat_id': None,
@@ -1834,15 +1834,15 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.985,
         'stop_loss': 1.0075
-    },  # 5m MACD меньше signal, 15m RSI больше 70 (sell)
+    },  # 5m MACD less than signal, 15m RSI more than 70 (sell)
     # 100%(2) Profit, 0%(0) Loss, 0 Open, 2 Finished, 2 Total
     # 14 hours 18 min. Average Time
-    # Дублирует стратегию 15
+    # Dublicates 15 strategy
 
     18: {
-        'doc': '5m MACD больше SIGNAL\n'
-               '15m RSI меньше 24\n'
-               '1d MACD меньше SIGNAL\n'
+        'doc': '5m MACD more than SIGNAL\n'
+               '15m RSI less than 24\n'
+               '1d MACD less than SIGNAL\n'
                'TP-1,5%, SL-0,75%',
         'coins': 2,
         'chat_id': None,
@@ -1881,10 +1881,10 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.015,
         'stop_loss': 0.9925
-    },  # 5m MACD больше signal, 15m RSI меньше 30 (buy)
+    },  # 5m MACD more than signal, 15m RSI less than 30 (buy)
     17: {
         'doc': 'Только RSI 1h\n'
-               '1h RSI больше 80\n'
+               '1h RSI more than 80\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1903,13 +1903,13 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.97,
         'stop_loss': 1.015
-    },  # 1h RSI больше 80 (sell)
+    },  # 1h RSI more than 80 (sell)
     # 10% Success, 90% Failure, 1 Profit, 9 Loss,
     # 10 Finished, 0 Open, 10 Total, 4 hours 4 min. Average Time
 
     16: {
         'doc': 'Tолько RSI 1h\n'
-               '1h RSI меньше 20\n'
+               '1h RSI less than 20\n'
                'TP-3%, SL-1,5%',
         'coins': 2,
         'chat_id': None,
@@ -1928,12 +1928,12 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.03,
         'stop_loss': 0.985
-    },  # 1h RSI меньше 20 (buy)
-    # не было ни одной сделки, удалил по аналогии с 17
+    },  # 1h RSI less than 20 (buy)
+    # No one trade 17
 
     14: {
-        'doc': '5m MACD больше SIGNAL\n'
-               '15m RSI меньше 70\n'
+        'doc': '5m MACD more than SIGNAL\n'
+               '15m RSI less than 70\n'
                'TP-1,5%, SL-0,75%',
         'coins': 2,
         'chat_id': None,
@@ -1962,14 +1962,14 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.015,
         'stop_loss': 0.9925
-    },  # 5m MACD больше signal, 15m RSI меньше 70 (buy)
+    },  # 5m MACD more than signal, 15m RSI less than 70 (buy)
     12: {
         'doc': 'Ловим подскоки\n'
                'В нижней половине\n'
-               '1. 1w MACD.macd больше MACD.signal\n'
-               '2. 1d RSI меньше 27\n'
-               '3. 4h RSI меньше 20\n'
-               '4. 1h RSI меньше 20',
+               '1. 1w MACD.macd more than MACD.signal\n'
+               '2. 1d RSI less than 27\n'
+               '3. 4h RSI less than 20\n'
+               '4. 1h RSI less than 20',
         'coins': 3,
         'chat_id': None,
         'criteria': {
@@ -2017,18 +2017,14 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.25,
         'stop_loss': 0.9
-    },  # Проанализировал отскоки на многих монетах
+    },  
     11: {
-        'doc': 'Основана на падении HNT на 13% '
-               'в течении 15 часов, 22.12.2022\n'
-               'В нижней половине\n'
-               '1d MACD.macd меньше 0\n'
-               '1d RSI меньше 50\n'
-               'В самом верху\n'
-               '4h RSI больше 70\n'
-               '4h RSI больше 65\n'
-               '1d MACD.macd меньше MACD.signal\n'
-               '15m RSI больше 50',
+        'doc': '1d MACD.macd less than 0\n'
+               '1d RSI less than 50\n'
+               '4h RSI more than 70\n'
+               '4h RSI more than 65\n'
+               '1d MACD.macd less than MACD.signal\n'
+               '15m RSI more than 50',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2096,13 +2092,11 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.9,
         'stop_loss': 1.05
-    },  # На основе падения HNT на 13% за 15 часов
+    },  
     10: {
-        'doc': 'Стратегия 6 наоборот. '
-               'ПРОДАВАТЬ если,\n'
-               '1d RSI меньше 35,\n'
-               '4h RSI больше 50,\n'
-               '1h RSI больше 60',
+        'doc': '1d RSI less than 35,\n'
+               '4h RSI more than 50,\n'
+               '1h RSI more than 60',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2142,15 +2136,12 @@ archive_strategy_list = {
         'stop_loss': 1.01
     },  # Стратегия 6 перевернутая и доработанная
     9: {
-        'doc': 'На основе падения NEAR на 50% в течении 15 дней\n'
-               'В нижней половине\n'
-               '1. 1W MACD.macd меньше 0\n'
-               '2. 1W RSI меньше 40\n'
-               '3. 1d MACD.macd меньше 0\n'
-               '4. 1d MACD.macd меньше MACD.signal\n'
-               'В самом верху\n'
-               '5. 1h RSI больше 60\n'
-               '6. 30m RSI больше 60',
+        'doc': '1. 1W MACD.macd less than 0\n'
+               '2. 1W RSI less than 40\n'
+               '3. 1d MACD.macd less than 0\n'
+               '4. 1d MACD.macd less than MACD.signal\n'
+               '5. 1h RSI more than 60\n'
+               '6. 30m RSI more than 60',
         'coins': 3,
         'chat_id': None,
         'criteria': {
@@ -2218,13 +2209,11 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # На основе большого падения NEAR
+    },  
     8: {
-        'doc': 'Cтратегия 6 наоборот. '
-               'ПРОДАВАТЬ если,\n'
-               '1d RSI меньше 35,\n'
-               '4h RSI больше 40,\n'
-               '1h RSI больше 50',
+        'doc': '1d RSI less than 35,\n'
+               '4h RSI more than 40,\n'
+               '1h RSI more than 50',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2264,11 +2253,7 @@ archive_strategy_list = {
         'stop_loss': 1.01
     },  # Стратегия 6 перевернутая
     7: {
-        'doc': 'Сергей: стратегия составлена на основе '
-               'падения NEAR начавшегося 5 ноября 2022. Падение '
-               'длилось 15 дней и составило более 50%\n'
-               'Падающие показатели\n'
-               '1.  1W MACD.macd < -1\n'
+        'doc': '1.  1W MACD.macd < -1\n'
                '2.  1W MACD.macd < MACD.signal\n'
                '3.  1W RSI < 40\n'
                '4.  1d MACD.macd < 0\n'
@@ -2386,12 +2371,11 @@ archive_strategy_list = {
         'signal': 'sell',
         'take_profit': 0.8,
         'stop_loss': 1.1
-    },  # Большое падение NEAR
+    },  
     6: {
-        'doc': 'Сергей: покупать если,\n'
-               'RSI(1d) меньше 35,\n'
-               'RSI(4h) больше 40,\n'
-               'RSI(1h) больше 50\n',
+        'doc': 'RSI(1d) less than 35,\n'
+               'RSI(4h) more than 40,\n'
+               'RSI(1h) more than 50\n',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2431,12 +2415,11 @@ archive_strategy_list = {
         'stop_loss': 0.99
     },  # strategy
     5: {
-        'doc': 'Сергей: продавать если,\n'
-               'RSI(4h) больше 40,\n'
-               'RSI(1h) больше 40,\n'
-               'RSI(30m) меньше 40,\n'
-               'RSI(15m) меньше 40,\n'
-               'RSI(5m) больше 80',
+        'doc': 'RSI(4h) more than 40,\n'
+               'RSI(1h) more than 40,\n'
+               'RSI(30m) less than 40,\n'
+               'RSI(15m) less than 40,\n'
+               'RSI(5m) more than 80',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2496,9 +2479,8 @@ archive_strategy_list = {
         'stop_loss': 1.01
     },  # strategy
     4: {
-        'doc': 'Ольга: Продавать если,\n'
-               'RSI(1h) больше 90,\n'
-               'RSI(15m) больше 95.',
+        'doc': 'RSI(1h) more than 90,\n'
+               'RSI(15m) more than 95.',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2528,10 +2510,9 @@ archive_strategy_list = {
         'stop_loss': 1.01
     },  # Strategy
     3: {
-        'doc': 'Сергей: Продавать если,\n'
-               'RSI(4h) меньше 40,\n'
-               'RSI(30m) между 30 и 40,\n'
-               'RSI(15m) между 40 и 50.',
+        'doc': 'RSI(4h) less than 40,\n'
+               'RSI(30m) 30–40,\n'
+               'RSI(15m) 40–50.',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2591,10 +2572,9 @@ archive_strategy_list = {
         'stop_loss': 1.01
     },  # strategy
     2: {
-        'doc': 'Сергей: Покупать если,\n'
-               'RSI(4h) больше 40,\n'
-               'RSI(30m) между 30 и 40,\n'
-               'RSI(15m) между 40 и 50.\n',
+        'doc': 'RSI(4h) more than 40,\n'
+               'RSI(30m) 30–40,\n'
+               'RSI(15m) 40–50.\n',
         'coins': 2,
         'chat_id': None,
         'criteria': {
@@ -2654,8 +2634,7 @@ archive_strategy_list = {
         'stop_loss': 0.99
     },  # strategy
     1: {
-        'doc': 'Ольга: Покупать, если\n'
-               'на 15m цена отклонилась\n'
+        'doc': 'на 15m цена отклонилась\n'
                'от EMA20 вниз на 3%.',
         'coins': 2,
         'chat_id': None,
@@ -2674,5 +2653,5 @@ archive_strategy_list = {
         'signal': 'buy',
         'take_profit': 1.02,
         'stop_loss': 0.99
-    },  # Ольга: Покупать, если на 15m цена отклонилась от EMA20 вниз на 3%
+    }, 
 }  # Final
